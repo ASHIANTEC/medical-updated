@@ -1,0 +1,432 @@
+/*------------------------ mycss---------------- */
+#logomedical{
+  height: 56px;
+  margin-top: -14px;
+}
+.btn-link{
+  text-decoration: unset!important;
+}
+.card-header{
+  background-color: #fff;
+  color: #000!important;
+}
+.card-header h3 a,h5,h3,i{ 
+  font-style: italic;
+  font-size: 13px;
+}
+#editsection .form-control{
+padding: 5px;
+font-size: 13px;
+}
+#activity .card-body,   #timeline .card-body,#biometric .card-body, #institute .card-body,#mark .card-body,#neet .card-body,#bank .card-body,#certificate .card-body{
+
+margin-top: -32px;
+}
+
+.content-header {
+  padding: 2px 1.5rem;
+}
+.content-header h1, .content-header .breadcrumb,  .list-group,.nav-pills,#btn-signup {
+  font-size: 14px;
+}
+.list-group-item {
+  padding: 5px 20px 5px 20px;
+}
+  
+.card-header{
+  border-bottom: none!important;
+}
+.card-header h5 a,.card-header h3 a{
+  color: #000;
+
+}
+#large{
+  color: blue;
+  font-size: 18px;
+  
+}
+label{
+  font-size: 13px;
+}
+
+
+td {
+
+  padding: 16px;
+  text-align: center;
+
+}
+#myTable tr:hover ,.modal-header,.main-sidebar{
+color: #fff;
+
+  background: linear-gradient(to right, #141e30, #243b55);
+
+}
+.uploadcare--widget__button_type_open {
+  background: #8080801f !important;
+  color: blue!important;
+  cursor: pointer;
+  margin-top: 3px;
+  padding: 1px;
+}
+#td{
+display: ruby-base;
+white-space: nowrap;
+}
+/* .uploadcare--widget__button{
+display: non
+} */
+#myTable td{
+  text-align: left;
+  width: 200px;
+overflow-wrap: anywhere;
+}
+.uploadcare--widget__file-size {
+  display:none;
+ }
+  .uploadcare--widget__button_type_remove,   .uploadcare--widget__button_type_remove:hover
+  {
+  padding: 1px;
+  font-size: 10px;
+  background-color: white;
+  color: #dc3545 ;
+
+ }
+
+
+#id{
+  width: 120px!important;
+}
+#myModal label,#myModal .text-dark{
+  color: #a9aea9 !important;
+}
+#myModal .text-danger{
+  color: #dc354591 !important;
+}
+.uploadcare--widget__button_type_open {
+  background: #8080801f!important;
+  color: #1a1616!important;
+  cursor: pointer;
+}
+.modal-content{
+  position: relative;
+  /* top: -28px; */
+
+}
+.modal-lg{
+  max-width: 953px;
+  position: relative;
+  left: 203px;
+}
+#myTable tr:hover{
+cursor: pointer;
+}
+.card-header i{
+    float: right;
+}
+
+#heading-1-1 a,#heading-1-1-2 a{
+    color: #000;
+}
+.custom-file label{
+  width: 150px;
+  text-align: center;
+}
+.modal .close{
+  color: #fff;
+}
+#hr{
+  border-top: 1px solid #ffffff63
+}
+.btn-sm,dl,#certificate p,#certificate label,#biometric p{
+  font-size: 12px;
+}
+.btn-sm{
+padding: 2px;
+}
+input,select{
+display: block!important;
+border: none!important;
+  border-bottom-color: currentcolor!important;
+  border-bottom-style: none!important;
+  border-bottom-width: medium!important;
+box-sizing: border-box!important;
+}
+input,select{
+border-bottom: 1px solid rgb(221, 217, 217)!important;
+margin-top: -11px;
+}
+#editsection input,select{
+
+    margin-top: -8px;
+
+}
+.nav-pills .nav-link {
+  font-weight: 800!important;
+  }
+.form-group{
+margin-top: -10px;
+}
+label{
+  font-weight: 600;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+#Neet .table th,.table td, #mark .table th,.table td{
+border-top: unset!important;
+}
+#addressborder{
+padding: 10px 0;
+}
+#drop{
+display: flex;
+float: right;
+position: relative;
+top: 40px;
+}
+.form-control:focus{
+  border-bottom: 3px solid  #243b55  !important;
+  box-shadow: none;
+
+}
+#profile{
+border-radius: 50%;
+width: 100px;
+position: relative;
+left: 18px;
+top: 10px;
+border: 3px solid;
+}
+#overflow{
+overflow-x: auto;
+}
+#profilecard{
+height: 130px;
+}
+#profilebody{
+padding-top: 5px;
+}
+.table th ,.table td{
+padding: 6px;
+}
+
+#myModal input::-moz-placeholder {
+color:#938989b8!important;
+}
+#regmbbs label,#regmbbs table,.form-control[readonly],.form-control:disabled,.form-control-file:disabled {
+
+font-style: italic;
+
+}
+.main-footer{
+font-size: 15px;
+}
+tfoot th{
+border-top: unset!important;
+}
+
+.form-control[readonly],.form-control:disabled,.form-control-file:disabled {
+background-color: #fff;
+color: #938989b8;
+border-bottom: unset;
+}
+
+#delete{
+width: 120px;
+}
+.form-control[readonly]:focus {
+border-bottom: unset!important;
+}
+@media print{
+.no-print, .no-print *{
+  display: none !important;
+} 
+.print-m-0{
+  margin: 0 !important;
+}
+
+/* 
+@page{
+size: 12.4in 13.4in;  
+
+margin: -2cm 0cm -30cm 0cm;
+} */
+/* 
+@page{
+size: 13.4in 13.3in;  
+
+margin: -2cm 0cm 0cm 0cm;
+
+} */
+
+
+body,#report{
+margin-top: -100px;
+
+}
+
+}
+
+.toolbar{
+background: #333; 
+width: 100vw; 
+position: fixed; 
+left: 0; 
+top: 0; 
+text-align: center;
+}
+
+.cert-container {
+margin:65px 0 10px 0; 
+width: 100%; 
+
+display: flex; 
+justify-content: center;
+}
+#report2 i{
+font-size: unset;
+}
+.cert {
+width:800px; 
+
+padding:15px 20px; 
+text-align:center; 
+position: relative; 
+z-index: -1;
+}
+
+.cert-bg {
+position: absolute; 
+left: 0px; 
+top: 0; 
+z-index: -1;
+width: 100%;
+}
+
+.cert-content {
+width:900px; 
+      border: 4px solid #1e1058d9;
+
+padding:20px 30px 0px 30px; 
+text-align:center;
+
+}
+
+
+li{
+  list-style: none;
+}
+.bottom-txt {
+padding: 12px 5px; 
+display: flex; 
+justify-content: space-between;
+font-size: 16px;
+}
+.blue,#report h5{
+font-weight: 700;
+}
+.blue{
+color:  #1e1058d9;
+}
+
+.bottom-txt * {
+white-space: nowrap !important;
+}
+.other-font{
+font-weight: 700;
+text-align: center;
+}
+#report hr{
+  border-top: 5px solid #00800085;
+}
+#border{
+background: url(/assets/img/reportbg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100% 100%;
+z-index: 9;
+
+}
+#borderr{
+  border: 4px solid #1e1058d9;
+}
+#tablereport td{
+width: 10px;
+text-align: left;
+}
+#tablereport th{
+font-size: 1.2rem;
+}
+.ml-215 {
+margin-left: 215px;
+}
+#reportcard{
+margin-top: 100px;
+}
+#report h5{
+font-size: 12px;
+font-weight: 800;
+color: #d87916f5;
+}
+#topname{
+font-size: 15px;
+}
+#name h5,#report li p,#report li i{
+font-size: 1.5rem;
+font-family: auto;
+}
+#sign{
+      position: relative;
+top: 40px;
+}
+#p{
+font-size: 1rem;
+}
+@media only screen and (max-width: 768px) {
+#profilecard{
+height: 100%;
+}
+#fee .modal-content{
+  margin-left:0;
+
+}
+.modal-lg,#delbox{
+position: relative;
+left: 0;
+}
+}
+#tfoot th{
+border: none;
+}
+
+@media print{
+.no-print, .no-print *{
+display: none !important;
+} 
+.print-m-0{
+margin: 0 !important;
+}
+body{
+margin:0!important;
+padding: 0!important;
+
+}
+
+
+
+} 
